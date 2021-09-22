@@ -1,0 +1,31 @@
+.modeSwitcher {
+  width: 90%;
+  height: 60px;
+  margin: 5rem auto;
+  border-radius: 30px;
+  background-color: rgb(41, 41, 41);
+  &__ul {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+    list-style: none;
+  }
+  &__li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 105px;
+    margin: 0 0.2rem;
+    height: 40px;
+    border-radius: 30px;
+    transition: 0.3s;
+    cursor: pointer;
+    &Active {
+      transition: 0.3s;
+      background-color: rgb(240, 93, 93);
+    }
+  }
+}
